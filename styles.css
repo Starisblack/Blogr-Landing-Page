@@ -15,7 +15,7 @@ body {
   border-radius: 0 0 0 4rem;
 }
 
-.mobile-hr{
+.mobile-hr {
   display: none;
 }
 
@@ -143,37 +143,34 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-
-  .phone-img{
-  top: -60px;
-  left: 40px;
-  width: 90%;
+  .phone-img {
+    top: -60px;
+    left: 40px;
+    width: 90%;
   }
-
 }
 
 @media screen and (max-width: 780px) {
-
-  .navbar-collapse{
+  .navbar-collapse {
     background-color: white;
     padding-bottom: 1.5rem;
     margin-top: 1rem;
   }
 
-  .nav-item{
+  .nav-item {
     padding: 1rem;
   }
 
   .nav-link, .dropdown-item {
-    color:  hsl(207, 13%, 34%);
+    color: hsl(207, 13%, 34%);
     font-family: 'Ubuntu', sans-serif;
   }
 
-.dropdown-menu{
-background-color: hsl(240, 2%, 90%) !important;
-}
+  .dropdown-menu {
+    background-color: hsl(240, 2%, 90%) !important;
+  }
 
-.dropdown-toggle::after {
+  .dropdown-toggle::after {
     color: hsl(13, 100%, 72%);
   }
 
@@ -181,29 +178,28 @@ background-color: hsl(240, 2%, 90%) !important;
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
-}
+  }
 
   .order-md-1 {
-  -webkit-box-ordinal-group: 2;
-  -ms-flex-order: 1;
-  order: 1;
-}
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
 
-.sign-up {
-  background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-  color: white !important;
-  padding: 0.5rem 1.5rem !important;
-  border-radius: 15px;
-  margin-top: 1rem !important;
-}
+  .sign-up {
+    background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    color: white !important;
+    padding: 0.5rem 1.5rem !important;
+    border-radius: 15px;
+    margin-top: 1rem !important;
+  }
 
-.mobile-hr{
-  display: block;
-  width: 90%;
-}
+  .mobile-hr {
+    display: block;
+    width: 90%;
+  }
 
-
-  .design-box{
+  .design-box {
     padding: 5rem 0 !important;
     text-align: center;
     background-size: 50%;
@@ -220,19 +216,19 @@ background-color: hsl(240, 2%, 90%) !important;
   }
 
   .Infrastructure-box {
-      background-size: 68%;
-      background-position: -45% 80%;
-      height: 400px !important;
-      border-radius: 0 5rem;
-      text-align: center;
-      padding-top: 5rem !important;
+    background-size: 68%;
+    background-position: -45% 80%;
+    height: 400px !important;
+    border-radius: 0 5rem;
+    text-align: center;
+    padding-top: 5rem !important;
   }
 
-  .illustration-editor{
+  .illustration-editor {
     height: 306px !important;
   }
 
-  .illustration-paragraph{
+  .illustration-paragraph {
     padding-top: 4rem;
     text-align: center;
   }
@@ -251,36 +247,35 @@ background-color: hsl(240, 2%, 90%) !important;
   .Infrastructure-text p {
     width: 80%;
     margin: 0 auto;
-}
+  }
 
-.features-box {
+  .features-box {
     background-size: 65%;
     background-position: 50% 0;
-}
+  }
 
-.feature-empty-column{
-  height: 250px;
-}
+  .feature-empty-column {
+    height: 250px;
+  }
 
-.features-text{
-  margin-top: 8rem;
-  text-align: center;
-}
+  .features-text {
+    margin-top: 8rem;
+    text-align: center;
+  }
 
-.features-box p {
+  .features-box p {
     width: 80%;
     margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 600px){
-.phone-img {
+@media screen and (max-width: 600px) {
+  .phone-img {
     top: -16rem;
+  }
 }
 
-}
-
-@media screen and (max-width: 430px){
+@media screen and (max-width: 430px) {
   .head-intro {
     background-image: url("images/bg-pattern-intro-mobile.svg"), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     background-repeat: no-repeat, no-repeat;
@@ -293,7 +288,7 @@ background-color: hsl(240, 2%, 90%) !important;
     padding-bottom: 3rem;
   }
 
-  .sign-up{
+  .sign-up {
     width: 50%;
     margin: 0 auto;
   }
@@ -306,25 +301,23 @@ background-color: hsl(240, 2%, 90%) !important;
   }
 
   .design-box h1 {
-      font-size: 2rem;
-    }
+    font-size: 2rem;
+  }
 
-
-  .illustration-paragraph{
+  .illustration-paragraph {
     padding-top: 0;
   }
 
-  .illustration-paragraph h2{
+  .illustration-paragraph h2 {
     font-size: 1.5rem;
     width: 70%;
     margin: 0 auto;
   }
 
-  .illustration-paragraph p{
+  .illustration-paragraph p {
     width: 80%;
     margin: 0 auto;
   }
-
 
   .Infrastructure-box {
     background-size: 100%;
@@ -333,23 +326,21 @@ background-color: hsl(240, 2%, 90%) !important;
     padding: 5rem 0 !important;
   }
 
-
   .Infrastructure-text {
     margin-top: 10rem;
-}
+  }
 
-.Infrastructure-text p {
+  .Infrastructure-text p {
     width: 73%;
-}
+  }
 
   .phone-img {
     top: -18rem;
     width: 90%;
     left: 20px;
-}
+  }
 
-
-.features-box {
+  .features-box {
     background-image: url("images/illustration-laptop-mobile.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -358,31 +349,33 @@ background-color: hsl(240, 2%, 90%) !important;
 
   .features-text {
     margin-top: 3rem;
-}
-
-
-#footer{
-  padding: 5rem 0 !important;
-  text-align: center;
-}
-
-.footer-box{
-  margin: 1rem 0 !important;
-}
-
-
-}
-
-
-@media screen and (max-width: 376px){
-
-  .Infrastructure-box {
-      background-size: 100%;
-      background-position: 0 -100%;
-    }
-
-  .Infrastructure-text {
-      margin-top: 6rem;
   }
 
+  #footer {
+    padding: 5rem 0 !important;
+    text-align: center;
+  }
+
+  .footer-box {
+    margin: 1rem 0 !important;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .intro-text {
+    font-size: 2rem;
+  }
+
+  .head-intro p {
+    padding-bottom: 0;
+  }
+
+  .Infrastructure-box {
+    background-size: 100%;
+    background-position: 0 -100%;
+  }
+
+  .Infrastructure-text {
+    margin-top: 6rem;
+  }
 }
